@@ -1,1 +1,8 @@
-body{background-image: url(../images/bgphoto.jpg);}
+body{background-image: url(../images/bgphoto.jpg);background-attachment:fixed;background-repeat: no-repeat;background-position: center top;margin: 0;}
+nav{background-color: rgba(29, 175, 201, 0.555);overflow: hidden;position: fixed;width: 100%;right:0; top: 0;z-index: 1000;}
+nav li{display: inline-block; font-weight: bold;color: black;margin-top: 15px;float: right;}
+nav li a{text-decoration: none;color: white;font-size: 16px;padding: 20px 25px;}
+nav li a:hover{background-color: rgba(29, 175, 201, 0.945);}
+img{max-width: 80px;display: inline;}
+.top{opacity: 0;position: static;}
+/* .seebg{background-color: bisque;top: 0;} */
