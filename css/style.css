@@ -1,8 +1,12 @@
 body{background-image: url(../images/bgphoto.jpg);background-attachment:fixed;background-repeat: no-repeat;background-position: center top;margin: 0;}
-nav{background-color: rgba(29, 175, 201, 0.555);overflow: hidden;position: fixed;width: 100%;z-index: 1000;}
-nav ul li{display: inline-block; font-weight: bold;color: black;float: right;}
-nav ul li a{text-decoration: none;color: white;font-size: 16px;padding: 20px 25px;}
-nav ul li a:hover{background-color: rgba(29, 175, 201, 0.945);}
-img{max-width: 80px;float: left;}
+.navbar {background-color: rgba(29, 175, 201, 0.555);overflow: hidden;position: fixed;width: 100%;z-index: 1000;}
+.navbar ul li{display: inline-block; font-weight: bold;color: black;float: right;}
+.navbar ul li a{text-decoration: none;color: white;font-size: 16px;text-align: center;padding: 20px 25px;}
+.navbar ul li a:hover{background-color: rgba(29, 175, 201, 0.945);}
+.navbar img{max-width: 80px;float: left;}
+.topnavbar img{max-width: 80px;float: left;}
 .topnavbar{opacity: 0;position: static;}
-/* .seebg{background-color: bisque;top: 0;} */
+
+.sidenav ul{display: inline;width: 200px;background-color: aqua;}
+.sidenav ul li a{text-decoration: none;display: block;color: white;font-weight: bold;}
+.seebg{background-color: bisque;top: 0;}
