@@ -1,11 +1,13 @@
 body{background-image: url(../images/bgphoto.jpg);background-attachment:fixed;background-repeat: no-repeat;background-position: center top;margin: 0;}
-.navbar {position: fixed;overflow: hidden;background-color: rgba(24, 157, 219, 0.9);overflow: hidden;position: fixed;width: 100%;z-index: 1000;}
+.navbar {position: fixed;overflow: hidden;background-color: rgba(24, 157, 219, 0.9);overflow: hidden;width: 100%;z-index: 1000;}
 .navbar ul li{display: inline-block; font-weight: bold;color: black;float: right;}
 .navbar ul li a{text-decoration: none;color: white;font-size: 16px;text-align: center;padding: 20px 25px;}
 .navbar ul li a:hover{background-color: rgba(0, 157, 219);}
 .navbar img{max-width: 80px;float: left;}
 
-.sidenav{background-color: rgb(3, 51, 58);width: 150px;height: 100%;;float: left;position: fixed;overflow: auto;margin: 53px 0px;}
+.sidenav{background-color: rgb(3, 51, 58);width: 150px;height: 100%;position: fixed;overflow: auto;margin: 53px 0px;}
 .sidenav ul{display: inline;width: 200px;}
 .sidenav ul li a{text-decoration: none;display: block;color: white;font-weight: bold;padding: 10px;}
 .sidenav ul li a:hover{background-color: rgba(0, 157, 219);}
+
+.rightnav{background-color: rgb(111, 177, 235,0.4);width: 20%;height: 93%;position: fixed;top: 7%;right: 0px;}
